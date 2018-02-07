@@ -1,0 +1,44 @@
+body {
+     font-family: 'Open Sans', sans-serif;
+}
+ header, footer {
+     background-color:#fcf4e8;
+     color: black;
+     padding: 20px;
+     text-align: center;
+}
+ .main-container-color{
+     background-color: lightblue;
+     height:200px;
+}
+ aside {
+     background-color: #f7f7f7;
+     text-align: center;
+     padding-top:80px;
+     height:200px;
+}
+ .left-container-color {
+     background-color: lightgreen;
+     text-align: center;
+     padding-top:80px;
+     height:200px;
+}
+ .right-container-color {
+     background-color: #ffff66;
+     text-align: center;
+     padding-top:80px;
+     height:200px;
+}
+ .font-style {
+     color: darkblue;
+     font-size: 1.5em;
+}
+ .font-style-main{
+     font-size: 1.5em;
+}
+ article {
+     padding: 40px;
+}
+ article p {
+     font-size: 16px;
+}

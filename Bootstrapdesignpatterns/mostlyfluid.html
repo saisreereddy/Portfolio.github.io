@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>The Mostly Fluid Pattern</title>
+			<!-- Theme CSS -->
+			<link href="Bootstrapdesignpatterncss/mostlyfluid.css" rel="stylesheet">
+				<!-- Google fonts -->
+				<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+					<!-- Latest compiled and minified CSS -->
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+						<link rel="stylesheet" type="text/css" href="styles.css">
+							<!-- Bootstrap requires jQuery -->
+							<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+							<!-- Latest compiled and minified JavaScript -->
+							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+						</head>
+						<body>
+							<header class="container-fluid">
+								<h1>Mostly Fluid Pattern</h1>
+							</header>
+							<div class="container-fluid">
+								<!-- START of container-fluid -->
+								<div class="row">
+									<!-- START of row-->
+									<section class="col-sm-8 main-container-color col-sm-push-2">
+										<article>
+											<h2>Main Container</h2>
+											<div class="row">
+												<p class="col-sm-12 font-style-main">
+						Main container content goes here
+					</p>
+											</div>
+										</article>
+									</section>
+									<div class="col-sm-2 left-container-color col-sm-pull-8">
+										<h3 class="font-style">
+				Left Container
+			</h3>
+									</div>
+									<div class="col-sm-2 right-container-color">
+										<h4 class="font-style">
+			Right Container
+			</h4>
+									</div>
+								</div>
+								<!-- END of row-->
+							</div>
+							<!-- END of container-fluid -->
+							<footer class="container-fluid">
+								<h1>Footer</h1>
+							</footer>
+						</body>
+					</html>
